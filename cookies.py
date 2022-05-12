@@ -4,7 +4,8 @@ import time
 import json
 
 
-driver = webdriver.Chrome()
+Path = 'D:/python_tool/geckodriver.exe'
+driver = webdriver.Firefox(executable_path=Path)  # 使用FireFox进行模拟点击，运行此段代码的时候，会启动firefox
 driver.get('http://www.100bt.com/m/creditMall/?gameId=2#home')
 
 time.sleep(1)
