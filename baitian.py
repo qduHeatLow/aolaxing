@@ -49,7 +49,7 @@ def mission():
         for element in elements:
             aola.execute_script('window.scrollTo(0,document.body.scrollHeight)')
             if element.text == "已完成":
-                print("已完成!")
+                print("任务"+int(cnt+1)+"已完成!")
                 cnt = cnt + 1
                 continue
             elif element.text == "去完成":
@@ -75,13 +75,18 @@ def mission():
     except Exception as e:
         print(e)
 
-# aola.delete_all_cookies()
-# with open('cookies.txt','r') as f:
-#     cookies_list = json.load(f)
-#     for cookie in cookies_list:
-#         aola.add_cookie(cookie)
-#     mission()
-#     aola.quit
+aola.delete_all_cookies()
+with open('cookies.txt','r') as f:
+    cookies_list = json.load(f)
+    for cookie in cookies_list:
+        aola.add_cookie(cookie)
+    mission()
+    aola.quit
+
+zhanghao_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[1]').text
+jifen_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[2]').text
+print(zhanghao_text)
+print(jifen_text)
 
 aola.delete_all_cookies()
 with open('cookies2.txt','r') as f:
@@ -91,13 +96,8 @@ with open('cookies2.txt','r') as f:
     mission()
     aola.quit
 
+zhanghao_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[1]').text
+jifen_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[2]').text
+print(zhanghao_text)
+print(jifen_text)
 
-
-
-# zhanghao_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[1]').text
-# jifen_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[2]').text
-
-
-
-# print(zhanghao_text)
-# print(jifen_text)
