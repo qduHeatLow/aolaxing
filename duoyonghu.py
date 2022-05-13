@@ -7,13 +7,13 @@ import json
 import os
 
 #头信息
-chromeOptions = webdriver.ChromeOptions()
-chromeOptions.add_argument('--incognito')
-#chromeOptions.add_argument('--headless')
-#chromeOptions.add_argument('--no-sandbox')
-chromeOptions.add_argument('--disable-javascript')
-chromeOptions.add_argument('user-agent="Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36"')
-aola = webdriver.Chrome(chrome_options=chromeOptions)
+from selenium.webdriver.firefox.options import Options
+options = Options()
+options.add_argument('--incognito')
+options.add_argument('user-agent="Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36"')
+
+Path = 'D:/python_tool/geckodriver.exe'
+aola = webdriver.Firefox(options=options, executable_path=Path)
 
 #进入网页+登录
 weizhicookies = os.path.dirname(os.path.abspath(__file__))

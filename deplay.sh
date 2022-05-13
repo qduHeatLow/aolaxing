@@ -3,4 +3,4 @@ git init
 git add -A
 git commit -m '简介修改'
 
-git push -f git@github.com:lanzeweie/aolaxing.git master
+git push -f git@github.com:qduHeatLow/aolaxing.git master

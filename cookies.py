@@ -16,7 +16,7 @@ while True:
     else:
         break
    
-with open('cookies.txt','w') as f:
+with open('cookies2.txt','w') as f:
     # 将cookies保存为json格式
     f.write(json.dumps(driver.get_cookies()))
 
