@@ -75,6 +75,7 @@ def mission():
     except Exception as e:
         print(e)
 
+aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
 aola.delete_all_cookies()
 with open('cookies.txt','r') as f:
     cookies_list = json.load(f)
@@ -88,6 +89,8 @@ jifen_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]
 print(zhanghao_text)
 print(jifen_text)
 
+
+aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
 aola.delete_all_cookies()
 with open('cookies2.txt','r') as f:
     cookies_list = json.load(f)
