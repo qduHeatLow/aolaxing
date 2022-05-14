@@ -21,7 +21,6 @@ aola = webdriver.Firefox(options=options, executable_path=Path)
 aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
 
 
-
 def mission():
     aola.refresh()
     time.sleep(0.3)
@@ -51,17 +50,23 @@ def mission():
             aola.execute_script('window.scrollTo(0,document.body.scrollHeight)')
             if element.text == "已完成":
                 print("任务已完成!")
-
                 cnt = cnt + 1
                 continue
             elif element.text == "去完成":
                 element.click()
+                time.sleep(2)
+                if aola.find_element_by_xpath("/html/body/div[1]/div[1]/div[10]/div[2]/div[6]/p[2]").text =="明天再来哟！":
+                    time.sleep(1)
+                    aola.find_element_by_xpath("/html/body/div[1]/div[1]/div[10]/div[2]/div[7]/div").click()
+                    break
                 if cnt == 0:
                     time.sleep(2)
                     print('success 1')
                     aola.find_element_by_class_name("find_element_by_xpath").click()
                 elif cnt == length - 1:
                     aola.get("http://service.100bt.com/creditmall/activity/do_task.jsonp?callback=jQuery1720020867576710175362_1652427184573&taskId=22&gameId=2&_=1652427220139")
+                    time.sleep(5)
+                    aola.get("http://service.100bt.com/creditmall/activity/do_task.jsonp?callback=jQuery1720020867576710175362_1652427184573&taskId=24&gameId=1&_=1652427220139")
                     time.sleep(5)
                     print('success 3')
                     aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
@@ -88,6 +93,7 @@ with open('cookies.txt','r') as f:
     for cookie in cookies_list:
         aola.add_cookie(cookie)
     mission()
+    print("-------------------")
     aola.quit
 
 
