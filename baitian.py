@@ -55,19 +55,24 @@ def mission():
             elif element.text == "去完成":
                 element.click()
                 time.sleep(2)
-                if aola.find_element_by_xpath("/html/body/div[1]/div[1]/div[10]/div[2]/div[6]/p[2]").text =="明天再来哟！":
-                    time.sleep(1)
-                    aola.find_element_by_xpath("/html/body/div[1]/div[1]/div[10]/div[2]/div[7]/div").click()
-                    break
+                try:
+                    if aola.find_element_by_xpath("/html/body/div[1]/div[1]/div[10]/div[2]/div[6]/p[2]").text =="明天再来哟！":
+                        time.sleep(1)
+                        aola.find_element_by_xpath("/html/body/div[1]/div[1]/div[10]/div[2]/div[7]/div").click()
+                        break
+                except:
+                    pass
                 if cnt == 0:
                     time.sleep(2)
                     print('success 1')
-                    aola.find_element_by_class_name("find_element_by_xpath").click()
+                    aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
+                    #aola.find_element_by_class_name("find_element_by_xpath").click()
                 elif cnt == length - 1:
+                    time.sleep(2)
                     aola.get("http://service.100bt.com/creditmall/activity/do_task.jsonp?callback=jQuery1720020867576710175362_1652427184573&taskId=22&gameId=2&_=1652427220139")
-                    time.sleep(5)
+                    time.sleep(2)
                     aola.get("http://service.100bt.com/creditmall/activity/do_task.jsonp?callback=jQuery1720020867576710175362_1652427184573&taskId=24&gameId=1&_=1652427220139")
-                    time.sleep(5)
+                    time.sleep(2)
                     print('success 3')
                     aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
                 else:
@@ -85,6 +90,8 @@ def mission():
         print("执行前"+jifen_text)
     except Exception as e:
         print(e)
+
+
 
 aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
 aola.delete_all_cookies()
