@@ -27,7 +27,8 @@ def mission():
     time.sleep(0.3)
     aola.execute_script('window.scrollTo(0,document.body.scrollHeight)')
     time.sleep(0.3)
-
+    jifen_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[2]').text
+    print("执行前"+jifen_text)
     # 开始任务
     # 每日签到
     # try:
@@ -49,7 +50,8 @@ def mission():
         for element in elements:
             aola.execute_script('window.scrollTo(0,document.body.scrollHeight)')
             if element.text == "已完成":
-                print("任务"+int(cnt+1)+"已完成!")
+                print("任务已完成!")
+
                 cnt = cnt + 1
                 continue
             elif element.text == "去完成":
@@ -57,9 +59,11 @@ def mission():
                 if cnt == 0:
                     time.sleep(2)
                     print('success 1')
+                    aola.find_element_by_class_name("find_element_by_xpath").click()
                 elif cnt == length - 1:
+                    aola.get("http://service.100bt.com/creditmall/activity/do_task.jsonp?callback=jQuery1720020867576710175362_1652427184573&taskId=22&gameId=2&_=1652427220139")
                     time.sleep(5)
-                    print('success 2')
+                    print('success 3')
                     aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
                 else:
                     # 等待取消按钮出现
@@ -67,11 +71,13 @@ def mission():
                         lambda the_driver: the_driver.find_element_by_xpath(
                             '/html/body/div[1]/div[1]/div[16]/div[2]/div[8]/div').is_displayed(), '失败')
                     time.sleep(35)
-                    print('success 3')
+                    print('success 2')
                     aola.find_element_by_xpath('/html/body/div[1]/div[1]/div[16]/div[2]/div[8]/div').click()
                 cnt = cnt + 1
             time.sleep(2)
         print("结束")
+        jifen_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[2]').text
+        print("执行前"+jifen_text)
     except Exception as e:
         print(e)
 
@@ -84,10 +90,7 @@ with open('cookies.txt','r') as f:
     mission()
     aola.quit
 
-zhanghao_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[1]').text
-jifen_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[2]').text
-print(zhanghao_text)
-print(jifen_text)
+
 
 
 aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
@@ -97,10 +100,7 @@ with open('cookies2.txt','r') as f:
     for cookie in cookies_list:
         aola.add_cookie(cookie)
     mission()
+    print("-------------------")
     aola.quit
 
-zhanghao_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[1]').text
-jifen_text = aola.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div/div[1]/div[2]/span[2]').text
-print(zhanghao_text)
-print(jifen_text)
 
