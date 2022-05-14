@@ -3,12 +3,10 @@
 ### 介绍 
 任务网址：http://www.100bt.com/m/creditMall/?gameId=2#task        
 自动化目标：  
-一、签到(只需点击)   
-二、答题(选项全部选一次即可)  
-三、看三十秒的广告  
-四、看三十秒的广告x2  
-五、进入每周资讯  
+自动判断类型并执行
 
+
+双账号版
 所需时间在80秒左右
 ## 开始
 
@@ -34,6 +32,8 @@ python cookies.py
 [chromedriver下载](https://chromedriver.storage.googleapis.com/index.html)  
 具体搭建请百度  
 
+这里时用的Firefox 的驱动  后续部署到服务器
+
 ### 启动
 
 获取cookies成功后
@@ -52,7 +52,7 @@ centos运行请添加
 chromeOptions.add_argument('--incognito') 
 chromeOptions.add_argument('--no-sandbox')
 ```
-### 多用户版
+### 多用户版 原作者做的  本人未做
 运行 'cookies.py'            
 获得用户的cookie        
 添加后缀 0 1 2 3 按照数字顺序 有多个就加多少      
