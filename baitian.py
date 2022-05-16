@@ -76,6 +76,8 @@ def mission():
                     time.sleep(2)
                     aola.get("http://service.100bt.com/creditmall/activity/do_task.jsonp?callback=jQuery1720020867576710175362_1652427184573&taskId=24&gameId=1&_=1652427220139")
                     time.sleep(2)
+                    aola.get("http://service.100bt.com/creditmall/activity/do_task.jsonp?callback=jQuery1720827760035034279_1652675131702&taskId=21&gameId=1&_=1652675137021")
+                    time.sleep(2)
                     print('success 3')
                     aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
                 else:
