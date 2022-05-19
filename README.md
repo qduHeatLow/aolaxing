@@ -1,6 +1,7 @@
 # 奥拉星积分商城自动签到与完成任务
 
 ### 介绍 
+已从原作者代码更新至 20220519可用
 b站：糸梦
 
 任务网址：http://www.100bt.com/m/creditMall/?gameId=2#task        
@@ -54,6 +55,7 @@ chromeOptions.add_argument('--incognito')
 chromeOptions.add_argument('--no-sandbox')
 ```
 ### 多用户版
+未实现 仍是原作者的
 运行 'cookies.py'            
 获得用户的cookie        
 添加后缀 0 1 2 3 按照数字顺序 有多个就加多少      
@@ -69,3 +71,12 @@ cookies1.py
 ()内的数字 为用户总数量
 
 > 此脚本只在windows系统测试     linux\mac\centos 并未测试 但区别不大  
+
+
+
+### 云服务器版
+baitian_yun.py 用于部署到服务器
+
+### 重要必看提示：
+其他用户请将代码改为自己可用的在运行哦~
+
