@@ -1,9 +1,9 @@
 # 奥拉星积分商城自动签到与完成任务
 
-### 介绍 
+### 介绍 b站：糸梦
 已从原作者代码更新至 20220519可用
 
-###b站：糸梦
+
 
 任务网址：http://www.100bt.com/m/creditMall/?gameId=2#task        
 自动化目标：  
@@ -52,8 +52,8 @@ centos运行请添加
 chromeOptions.add_argument('--incognito') 
 chromeOptions.add_argument('--no-sandbox')
 ```
-### 多用户版
-未实现 仍是原作者的
+### 多用户版 未实现 仍是原作者的
+
 运行 'cookies.py'            
 获得用户的cookie        
 添加后缀 0 1 2 3 按照数字顺序 有多个就加多少      
