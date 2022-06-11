@@ -100,7 +100,7 @@ def mission():
 
 aola.get('http://www.100bt.com/m/creditMall/?gameId=2#task')
 aola.delete_all_cookies()
-with open('cookies.txt','r') as f:
+with open('cookies1.txt','r') as f:
     cookies_list = json.load(f)
     for cookie in cookies_list:
         aola.add_cookie(cookie)

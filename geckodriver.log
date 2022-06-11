@@ -725,3 +725,1330 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1652541188498	geckodriver	INFO	Listening on 127.0.0.1:52907
+1652541191652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileIlHr6a"
+1652541192232	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileIlHr6a\\search.json.mozlz4", (void 0)))
+1652541193931	Marionette	INFO	Listening on port 52944
+Read port: 52944
+1652541193991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1652541214266	geckodriver	INFO	Listening on 127.0.0.1:53067
+1652541217325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileVNJWpk"
+1652541217742	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileVNJWpk\\search.json.mozlz4", (void 0)))
+1652541219205	Marionette	INFO	Listening on port 53100
+Read port: 53100
+1652541219325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Unable to find target with innerWindowId:6442450947"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652541412734	Marionette	INFO	Stopped listening on port 53100
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilewsHu3K"
+1652541412439	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilewsHu3K\\search.json.mozlz4", (void 0)))
+1652541414493	Marionette	INFO	Listening on port 53499
+Read port: 53499
+1652541414587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652541455407	geckodriver	INFO	Listening on 127.0.0.1:53611
+1652541458456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileqpfnGR"
+1652541458819	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileqpfnGR\\search.json.mozlz4", (void 0)))
+1652541460339	Marionette	INFO	Listening on port 53643
+Read port: 53643
+1652541460460	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652541509016	geckodriver	INFO	Listening on 127.0.0.1:53791
+1652541512056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileiA6jI8"
+1652541512436	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileiA6jI8\\search.json.mozlz4", (void 0)))
+1652541513974	Marionette	INFO	Listening on port 53817
+Read port: 53817
+1652541514055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: "Unable to find target with innerWindowId:6442450946"
+console.error: "Unable to find target with innerWindowId:6442450950"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652541607832	Marionette	INFO	Stopped listening on port 53817
+[Parent 8164, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 8164, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8164, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652541611148	geckodriver	INFO	Listening on 127.0.0.1:54134
+1652541614227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile6rgOZQ"
+1652541614603	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile6rgOZQ\\search.json.mozlz4", (void 0)))
+1652541616064	Marionette	INFO	Listening on port 54164
+Read port: 54164
+1652541616109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Unable to find target with innerWindowId:6442450946"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652541666757	geckodriver	INFO	Listening on 127.0.0.1:54387
+1652541669811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileuh1jVZ"
+1652541670200	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileuh1jVZ\\search.json.mozlz4", (void 0)))
+1652541671673	Marionette	INFO	Listening on port 54419
+Read port: 54419
+1652541671697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Task cancelled"
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450950/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450950/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal6442450950/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+_getWalker@resource://devtools/client/fronts/inspector.js:90:30
+initialize@resource://devtools/client/fronts/inspector.js:79:12
+
+1652541678499	Marionette	INFO	Stopped listening on port 54419
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652541688719	geckodriver	INFO	Listening on 127.0.0.1:54571
+1652541691765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileg0fxK5"
+1652541692129	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileg0fxK5\\search.json.mozlz4", (void 0)))
+1652541693648	Marionette	INFO	Listening on port 54600
+Read port: 54600
+1652541693745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652541723479	Marionette	INFO	Stopped listening on port 54600
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652541746640	geckodriver	INFO	Listening on 127.0.0.1:54760
+1652541749708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilesdfiGA"
+1652541750095	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilesdfiGA\\search.json.mozlz4", (void 0)))
+1652541751619	Marionette	INFO	Listening on port 54794
+Read port: 54794
+1652541751724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_UpdateEffects) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_StopIMEStateManagement) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PBrowser::Msg_SessionStoreUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Reply_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PWindowGlobal::Msg_RawMessage) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2119: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1652542916312	Marionette	INFO	Stopped listening on port 54794
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PSocketProcessParent] Error: Send(msgname=PSocketProcess::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PSocketProcessParent] Error: Send(msgname=PSocketProcess::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PSocketProcessParent] Error: Send(msgname=PSocketProcess::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Child][PGPUChild] Error: Send(msgname=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Shutting down due to socket process crash.
+
+###!!! [Child][PCompositorManagerChild] Error: Send(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][PCompositorManagerChild] Error: SendAndWait(msgname=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Parent 61760, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 61760, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 61760, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 61760, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: , line 0: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+[Parent 61760, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError: Network request failed
+  Stack:
+    fetch/</request.onerror@resource://services-settings/Utils.jsm:153:26
+
+1652569459439	geckodriver	INFO	Listening on 127.0.0.1:59264
+1652569462559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile0dX3BM"
+1652569463295	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile0dX3BM\\search.json.mozlz4", (void 0)))
+1652569466282	Marionette	INFO	Listening on port 59297
+Read port: 59297
+1652569466363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652569489627	Marionette	INFO	Stopped listening on port 59297
+1652569536048	geckodriver	INFO	Listening on 127.0.0.1:51465
+1652569539122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileGQFQRX"
+1652569539717	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileGQFQRX\\search.json.mozlz4", (void 0)))
+1652569542024	Marionette	INFO	Listening on port 51499
+Read port: 51499
+1652569542133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652569788536	Marionette	INFO	Stopped listening on port 51499
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilexIGamg"
+1652569787237	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilexIGamg\\search.json.mozlz4", (void 0)))
+1652569790315	Marionette	INFO	Listening on port 51902
+Read port: 51902
+1652569790391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652569889526	Marionette	INFO	Stopped listening on port 51902
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652569891929	geckodriver	INFO	Listening on 127.0.0.1:52055
+1652569895014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileJWdELE"
+1652569895617	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileJWdELE\\search.json.mozlz4", (void 0)))
+1652569898010	Marionette	INFO	Listening on port 52086
+Read port: 52086
+1652569898129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1652569981562	geckodriver	INFO	Listening on 127.0.0.1:52243
+1652569984635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileRA73qB"
+1652569985010	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileRA73qB\\search.json.mozlz4", (void 0)))
+1652569986548	Marionette	INFO	Listening on port 52267
+Read port: 52267
+1652569986620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, 1652570682797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilentT546"
+1652570683238	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilentT546\\search.json.mozlz4", (void 0)))
+1652570684827	Marionette	INFO	Listening on port 52969
+Read port: 52969
+1652570684921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652570738914	Marionette	INFO	Stopped listening on port 52969
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 80108, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652570710121	geckodriver	INFO	Listening on 127.0.0.1:53042
+1652570713191	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile9y3XVv"
+1652570713564	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile9y3XVv\\search.json.mozlz4", (void 0)))
+1652570715233	Marionette	INFO	Listening on port 53067
+Read port: 53067
+1652570715286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652570717625	Marionette	INFO	Stopped listening on port 53067
+1652570734781	geckodriver	INFO	Listening on 127.0.0.1:53132
+1652570737841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile249EEn"
+1652570738298	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile249EEn\\search.json.mozlz4", (void 0)))
+1652570740475	Marionette	INFO	Listening on port 53164
+Read port: 53164
+1652570740592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652570765833	Marionette	INFO	Stopped listening on port 53164
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilei1Y0hu"
+1652570764590	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilei1Y0hu\\search.json.mozlz4", (void 0)))
+1652570766479	Marionette	INFO	Listening on port 53263
+Read port: 53263
+1652570766607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652570787527	Marionette	INFO	Stopped listening on port 53261652570789146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilehXXuDz"
+1652570789514	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilehXXuDz\\search.json.mozlz4", (void 0)))
+1652570791061	Marionette	INFO	Listening on port 53364
+Read port: 53364
+1652570791145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652570796479	Marionette	INFO	Stopped listening on port 53364
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652570805332	geckodriver	INFO	Listening on 127.0.0.1:53435
+1652570808396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileQV8vu3"
+1652570808758	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileQV8vu3\\search.json.mozlz4", (void 0)))
+1652570810390	Marionette	INFO	Listening on port 53462
+Read port: 53462
+1652570810503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652570816351	Marionette	INFO	Stopped listening on port 53462
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652570891505	geckodriver	INFO	Listening on 127.0.0.1:53645
+1652570894550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilenYcc0z"
+1652570894920	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilenYcc0z\\search.json.mozlz4", (void 0)))
+1652570896545	Marionette	INFO	Listening on port 53673
+Read port: 53673
+1652570896656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652570896877	Marionette	INFO	Stopped listening on port 53673
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652654060007	geckodriver	INFO	Listening on 127.0.0.1:62153
+1652654063093	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile8zBeOR"
+1652654063779	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile8zBeOR\\search.json.mozlz4", (void 0)))
+1652654067497	Marionette	INFO	Listening on port 62189
+Read port: 62189
+1652654067560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, 1652654205076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilem7iFTf"
+1652654205540	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilem7iFTf\\search.json.mozlz4", (void 0)))
+1652654207522	Marionette	INFO	Listening on port 57931
+Read port: 57931
+1652654207625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+[Child 82068, MediaDecoderStateMachine #1] WARNING: Decoder=1ee9db2df00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:369
+[Child 82068, MediaDecoderStateMachine #1] WARNING: Decoder=1ee9db2df00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3577
+JavaScript warning: https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/mmbizappmsg/assets/controller.b79b6e3a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+1652654407391	Marionette	INFO	Stopped listening on port 57931
+1653102625085	geckodriver	INFO	Listening on 127.0.0.1:63552
+1653102627769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilelNHD7Y"
+1653102628524	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilelNHD7Y\\search.json.mozlz4", (void 0)))
+1653102631158	Marionette	INFO	Listening on port 63589
+Read port: 63589
+1653102631212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653102638403	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1653102654438	Marionette	INFO	Stopped listening on port 63589
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1654219304380	geckodriver	INFO	Listening on 127.0.0.1:49398
+1654219307165	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilebY5RKv"
+1654219307683	Marionette	INFO	Marionette enabled
+JavaScript error: chrome://browser/content/tabbrowser.js, line 5318: TypeError: this.PictureInPicture is undefined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilebY5RKv\\search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4103: Error: Area not yet restored
+JavaScript error: chrome://browser/content/tabbrowser.js, line 5318: TypeError: this.PictureInPicture is undefined
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4103: Error: Area not yet restored
+JavaScript error: chrome://browser/content/tabbrowser.js, line 5318: TypeError: this.PictureInPicture is undefined
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4103: Error: Area not yet restored
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4832: TypeError: aWindow.gNavToolbox.palette is undefined
+1654219325311	geckodriver	INFO	Listening on 127.0.0.1:49490
+1654219328391	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileEgZ4bJ"
+1654219328847	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileEgZ4bJ\\search.json.mozlz4", (void 0)))
+1654219330386	Marionette	INFO	Listening on port 49540
+Read port: 49540
+1654219330487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654219358456	Marionette	INFO	Stopped listening on port 49540
+1654219392003	geckodriver	INFO	Listening on 127.0.0.1:49838
+1654219395031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilek8H0Cb"
+1654219395590	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilek8H0Cb\\search.json.mozlz4", (void 0)))
+1654219397065	Marionette	INFO	Listening on port 49876
+Read port: 49876
+1654219397137	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654219426681	Marionette	INFO	Stopped listening on port 49876
+1654219658231	geckodriver	INFO	Listening on 127.0.0.1:50840
+1654219661299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileRTY7qF"
+1654219661627	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileRTY7qF\\search.json.mozlz4", (void 0)))
+1654219663319	Marionette	INFO	Listening on port 50881
+Read port: 50881
+1654219663381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654219672571	Marionette	INFO	Stopped listening on port 50881
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1654873408095	geckodriver	INFO	Listening on 127.0.0.1:52267
+1654873411439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52268" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilejBy7Gx"
+1654873414239	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52268
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilejBy7Gx\\search.json.mozlz4", (void 0)))
+1654873421361	Marionette	INFO	Listening on port 52310
+DevTools listening on ws://localhost:52268/devtools/browser/7451141e-abe8-4e71-aa7f-86a901489529
+Read port: 52310
+1654873421490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654873786619	Marionette	INFO	Stopped listening on port 52310
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654903966683	geckodriver	INFO	Listening on 127.0.0.1:50469
+1654903969770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50470" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilejfAQiH"
+1654903970213	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50470
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilejfAQiH\\search.json.mozlz4", (void 0)))
+1654903971983	Marionette	INFO	Listening on port 50499
+DevTools listening on ws://localhost:50470/devtools/browser/6eb6dd57-ec90-4012-ab88-aa84b1b41ac8
+Read port: 50499
+1654903972103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654903974913	Marionette	INFO	Stopped listening on port 50499
+1654903983240	geckodriver	INFO	Listening on 127.0.0.1:50561
+1654903986277	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50562" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilek2wzlV"
+1654903986633	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50562
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilek2wzlV\\search.json.mozlz4", (void 0)))
+1654903988241	Marionette	INFO	Listening on port 50589
+Read port: 50589
+1654903988290	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:50562/devtools/browser/544941e5-b0b3-496e-9230-9c20e11ae026
+1654904035779	Marionette	INFO	Stopped listening on port 50589
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+[Parent 20332, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1654904133171	geckodriver	INFO	Listening on 127.0.0.1:50868
+1654904136228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile6Ikmoj"
+1654904136580	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50869
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile6Ikmoj\\search.json.mozlz4", (void 0)))
+1654904138287	Marionette	INFO	Listening on port 50895
+Read port: 50895
+DevTools listening on ws://localhost:50869/devtools/browser/5bca8750-4cf6-4d66-80b2-15236dfe080f
+1654904138330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654904179111	Marionette	INFO	Stopped listening on port 50895
+1654904273248	geckodriver	INFO	Listening on 127.0.0.1:51100
+1654904276302	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "51101" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile9KliuX"
+1654904276681	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51101
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofile9KliuX\\search.json.mozlz4", (void 0)))
+1654904278245	Marionette	INFO	Listening on port 51130
+DevTools listening on ws://localhost:51101/devtools/browser/5fc9ed3e-7488-46b3-9977-2f0efc1f188b
+Read port: 51130
+1654904278305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654904727049	Marionette	INFO	Stopped listening on port 51130
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "51855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileSHlGpS"
+1654904690949	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51855
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileSHlGpS\\search.json.mozlz4", (void 0)))
+1654904692484	Marionette	INFO	Listening on port 51880
+Read port: 51880
+1654904692507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:51855/devtools/browser/e8755134-15a2-45e2-8e78-b536de9020e8
+1654904726435	Marionette	INFO	Stopped listening on port 51881654904727489	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "51966" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilevmcubg"
+1654904727893	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51966
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilevmcubg\\search.json.mozlz4", (void 0)))
+1654904729505	Marionette	INFO	Listening on port 51994
+DevTools listening on ws://localhost:51966/devtools/browser/b6e00399-22ae-42ac-a56d-72ec0ee50e36
+Read port: 51994
+1654904729597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654904777938	geckodriver	INFO	Listening on 127.0.0.1:52091
+1654904780986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "52092" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileTvnBX6"
+1654904781318	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52092
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileTvnBX6\\search.json.mozlz4", (void 0)))
+1654904782964	Marionette	INFO	Listening on port 52119
+Read port: 52119
+1654904783001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:52092/devtools/browser/2ae197ad-86f8-4b24-ade8-a86fc6af5658
+1654905102691	geckodriver	INFO	Listening on 127.0.0.1:52560
+1654905105745	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "52561" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileSbVkHI"
+1654905106069	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52561
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileSbVkHI\\search.json.mozlz4", (void 0)))
+1654905107568	Marionette	INFO	Listening on port 52588
+DevTools listening on ws://localhost:52561/devtools/browser/40011517-5cd5-4612-87d6-cbae7d66b8fc
+Read port: 52588
+1654905107649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654905158283	Marionette	INFO	Stopped listening on port 52581654905159065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "52711" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileKthgXq"
+1654905159418	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52711
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileKthgXq\\search.json.mozlz4", (void 0)))
+1654905160916	Marionette	INFO	Listening on port 52740
+Read port: 52740
+DevTools listening on ws://localhost:52711/devtools/browser/22d60139-c141-4f18-9b15-70938557fa11
+1654905160963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654905179014	geckodriver	INFO	Listening on 127.0.0.1:52801
+1654905182070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "52802" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilebUokUg"
+1654905182399	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52802
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilebUokUg\\search.json.mozlz4", (void 0)))
+1654905199894	geckodriver	INFO	Listening on 127.0.0.1:52847
+1654905202970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "52848" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilepbWVoK"
+1654905203300	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52848
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilepbWVoK\\search.json.mozlz4", (void 0)))
+1654905204707	Marionette	INFO	Listening on port 52874
+DevTools listening on ws://localhost:52848/devtools/browser/eec5240c-a7b5-4050-b0a7-243ff206ba32
+Read port: 52874
+1654905204763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654905250956	Marionette	INFO	Stopped listening on port 52871654905251341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "52971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileB8unbE"
+1654905251717	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52971
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileB8unbE\\search.json.mozlz4", (void 0)))
+1654905253234	Marionette	INFO	Listening on port 52999
+DevTools listening on ws://localhost:52971/devtools/browser/16545eb6-8305-40f0-bfdf-870829b3e5dd
+Read port: 52999
+1654905253351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654905261801	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1654905302858	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://player.bilibili.com/main/html5/outer/liteplayer.min.js?lastModified=2020-06-29T05:09:04.408Z, line 1175: "use asm" is only meaningful in the Directive Prologue of a function body
+JavaScript error: https://player.bilibili.com/main/libs/jquery-1.7.2.min.js, line 4: TypeError: a.ownerDocument is null
+[Child 24836, MediaDecoderStateMachine #1] WARNING: 182bfe35bc0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:317
+JavaScript warning: https://player.bilibili.com/main/html5/outer/liteplayer.min.js?lastModified=2020-06-29T05:09:04.408Z, line 1175: "use asm" is only meaningful in the Directive Prologue of a function body
+JavaScript error: https://player.bilibili.com/main/libs/jquery-1.7.2.min.js, line 4: TypeError: a.ownerDocument is null
+1654905484915	Marionette	INFO	Stopped listening on port 52999
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654905601801	geckodriver	INFO	Listening on 127.0.0.1:53751
+1654905604859	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "53752" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileAz4f71"
+1654905605221	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53752
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofileAz4f71\\search.json.mozlz4", (void 0)))
+1654905606787	Marionette	INFO	Listening on port 53774
+DevTools listening on ws://localhost:53752/devtools/browser/2616f63f-2357-4dac-8091-5d31fbcb1720
+Read port: 53774
+1654905606865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://resource.a0bi.com/resource/js/util/newcommon/injectBusiness.js, line 7: ReferenceError: zUtil is not defined
+JavaScript warning: http://resource.a0bi.com/alx/mobile/pc/src/res/common/common.js?v=V202020-12-02, line 430: unreachable code after return statement
+JavaScript error: http://resource.a0bi.com/resource/js/lib/ueditor1.4/editor_all.js, line 2: SecurityError: Permission denied to access property "UE" on cross-origin object
+1654905677688	Marionette	INFO	Stopped listening on port 53774
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654905693005	geckodriver	INFO	Listening on 127.0.0.1:54040
+1654905696081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "user-agent=\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36\"" "--remote-debugging-port" "54041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilePwPZcM"
+1654905696505	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:54041
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\14429\\AppData\\Local\\Temp\\rust_mozprofilePwPZcM\\search.json.mozlz4", (void 0)))
+1654905698104	Marionette	INFO	Listening on port 54070
+DevTools listening on ws://localhost:54041/devtools/browser/56538ad8-86c9-4944-952d-515c241a0165
+Read port: 54070
+1654905698194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654905763660	Marionette	INFO	Stopped listening on port 54070
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
